@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
-}
+/* App.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Overall container */
+.container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Text column on the left */
+.text-column {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Title style */
+.title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #1d0551;
+  margin-right: 50px;
+}
+
+/* Subtitle style */
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph text style */
+p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Email input style */
+.email-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Continue button style */
+.continue-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #1d0551;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Social column on the right */
+.social-column {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Social link style */
+.social-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 14px;
+  margin-right: 20px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+}
+.social-link-fb{
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 14px; 
+  background-color: blue;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* Social link image style */
+.social-link img,.social-link-fb img {
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+
+}
+
+/* Legal notice style */
+.social-column p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+span{
+  color: green;
+}
+section{
+  flex: 0.5;
+  text-align: left;
+  padding: 20px;
+  margin-top: 0px;
+}
+article{
+  margin-right: 0px;
+  margin-left: 100px;
 }
